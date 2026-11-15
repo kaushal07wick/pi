@@ -1,0 +1,4 @@
+{
+  "install": "npm ci --ignore-scripts --no-audit --no-fund",
+  "test": "cd packages/coding-agent && ../../node_modules/.bin/vitest run test/utf16-files.test.ts test/tools.test.ts test/read-streaming.test.ts test/edit-*.test.ts test/image-resize-callers.test.ts test/block-images.test.ts test/session-context-edit.test.ts --maxWorkers=2"
+}
